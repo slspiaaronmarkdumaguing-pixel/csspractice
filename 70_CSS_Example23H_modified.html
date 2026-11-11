@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!-- MODIFIED: Much larger and smaller word spacing (25px, -4px) with colored paragraphs. -->
+<html>
+<head>
+<style>
+/* MODIFIED base theme: placed first, so the example's own rules still win */
+body {
+ font-family: "Trebuchet MS", Verdana, sans-serif;
+ line-height: 1.5;
+ padding: 14px 22px;
+ background-color: #fff3e0;
+ color: #2d3142;
+ border-top: 8px solid #ef8354;
+}
+</style>
+<style>
+p.one {
+  word-spacing: 25px;
+}
+
+p.two {
+  word-spacing: -4px;
+}
+p.one { color: #6a1b9a; }
+p.two { color: #00695c; }
+</style>
+</head>
+<body>
+
+<h1>Using word-spacing</h1>
+
+<p>This is a paragraph with normal word spacing.</p>
+
+<p class="one">This is a paragraph with larger word spacing.</p>
+<p class="two">This is a paragraph with smaller word spacing.</p>
+
+</body>
+</html>

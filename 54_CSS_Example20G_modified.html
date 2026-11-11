@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!-- MODIFIED: One-to-four-value border-style demo using groove/ridge/dashed/double, teal borders and green page. -->
+<html>
+<head>
+<style>
+/* MODIFIED base theme: placed first, so the example's own rules still win */
+body {
+ font-family: "Trebuchet MS", Verdana, sans-serif;
+ line-height: 1.5;
+ padding: 14px 22px;
+ background-color: #fff3e0;
+ color: #2d3142;
+ border-top: 8px solid #ef8354;
+}
+</style>
+<style>
+body {
+  text-align: center;
+}
+/* Four values */
+p.four {
+  border-style: groove ridge dashed double;
+}
+
+/* Three values */
+p.three {
+  border-style: groove ridge dashed;
+}
+
+/* Two values */
+p.two {
+  border-style: groove ridge;
+}
+
+/* One value */
+p.one {
+  border-style: groove;
+}
+p { border-width: 6px; border-color: #00897b; padding: 8px; }
+body { background-color: #f1f8e9; }
+</style>
+</head>
+<body>
+
+<h2>Individual Border Sides</h2>
+<p class="four">4 different border styles.</p>
+<p class="three">3 different border styles.</p>
+<p class="two">2 different border styles.</p>
+<p class="one">1 border style.</p>
+
+</body>
+</html>

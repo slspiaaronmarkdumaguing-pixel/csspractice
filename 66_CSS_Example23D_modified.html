@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!-- MODIFIED: Each transformed paragraph gets its own color, weight and letter spacing. -->
+<html>
+<head>
+<style>
+/* MODIFIED base theme: placed first, so the example's own rules still win */
+body {
+ font-family: "Trebuchet MS", Verdana, sans-serif;
+ line-height: 1.5;
+ padding: 14px 22px;
+ background-color: #fff3e0;
+ color: #2d3142;
+ border-top: 8px solid #ef8354;
+}
+</style>
+<style>
+p.uppercase {
+  text-transform: uppercase;
+}
+
+p.lowercase {
+  text-transform: lowercase;
+}
+
+p.capitalize {
+  text-transform: capitalize;
+}
+p.uppercase { color: #b71c1c; letter-spacing: 2px; font-weight: bold; }
+p.lowercase { color: #1b5e20; font-size: 20px; }
+p.capitalize { color: #0d47a1; font-style: italic; font-size: 22px; }
+</style>
+</head>
+<body>
+
+<h1>Using the text-transform property</h1>
+
+<p class="uppercase">This text is transformed to uppercase.</p>
+<p class="lowercase">This text is transformed to lowercase.</p>
+<p class="capitalize">This text is capitalized.</p>
+
+</body>
+</html>

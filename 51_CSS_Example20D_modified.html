@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!-- MODIFIED: Four new side colors (purple, orange, teal, pink) and a 10px border (comment updated). -->
+<html>
+<head>
+<style>
+/* MODIFIED base theme: placed first, so the example's own rules still win */
+body {
+ font-family: "Trebuchet MS", Verdana, sans-serif;
+ line-height: 1.5;
+ padding: 14px 22px;
+ background-color: #fff3e0;
+ color: #2d3142;
+ border-top: 8px solid #ef8354;
+}
+</style>
+<style>
+p.one {
+  border-style: solid;
+  border-color: purple orange teal pink; /* purple top, orange right, teal bottom and pink left */
+}
+p.one { border-width: 10px; padding: 8px; }
+</style>
+</head>
+<body>
+
+<h2>The border-color Property</h2>
+<p>The border-color property can have from one to four values (for the top border, right border, bottom
+border, and the left border):</p>
+
+<p class="one">A solid multicolor border</p>
+
+</body>
+</html>

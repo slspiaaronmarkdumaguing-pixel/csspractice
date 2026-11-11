@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!-- MODIFIED: white-space changed from nowrap to pre, so every line is kept on its own line; boxed in blue. -->
+<html>
+<head>
+<style>
+/* MODIFIED base theme: placed first, so the example's own rules still win */
+body {
+ font-family: "Trebuchet MS", Verdana, sans-serif;
+ line-height: 1.5;
+ padding: 14px 22px;
+ background-color: #fff3e0;
+ color: #2d3142;
+ border-top: 8px solid #ef8354;
+}
+</style>
+<style>
+p {
+  white-space: pre;
+}
+p { background-color: #e8eaf6; border: 2px solid #3949ab; padding: 8px; overflow-x: auto; }
+</style>
+</head>
+<body>
+
+<h1>Using white-space</h1>
+
+<p>
+This is some text that will not wrap.
+This is some text that will not wrap.
+This is some text that will not wrap.
+This is some text that will not wrap.
+This is some text that will not wrap.
+This is some text that will not wrap.
+This is some text that will not wrap.
+This is some text that will not wrap.
+This is some text that will not wrap.
+</p>
+
+<p>Try to remove the white-space property to see the difference!</p>
+
+</body>
+</html>

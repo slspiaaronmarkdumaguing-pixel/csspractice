@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!-- MODIFIED: Taller line-height values (0.9 and 2.4) and tinted paragraph backgrounds. -->
+<html>
+<head>
+<style>
+/* MODIFIED base theme: placed first, so the example's own rules still win */
+body {
+ font-family: "Trebuchet MS", Verdana, sans-serif;
+ line-height: 1.5;
+ padding: 14px 22px;
+ background-color: #fff3e0;
+ color: #2d3142;
+ border-top: 8px solid #ef8354;
+}
+</style>
+<style>
+p.small {
+  line-height: 0.9;
+}
+
+p.big {
+  line-height: 2.4;
+}
+p.small { background-color: #ffe0b2; }
+p.big { background-color: #c8e6c9; }
+</style>
+</head>
+<body>
+
+<h1>Using line-height</h1>
+
+<p>
+This is a paragraph with a standard line-height.<br>
+The default line height in most browsers is about 110% to 120%.<br>
+</p>
+
+<p class="small">
+This is a paragraph with a smaller line-height.<br>
+This is a paragraph with a smaller line-height.<br>
+</p>
+
+<p class="big">
+This is a paragraph with a bigger line-height.<br>
+This is a paragraph with a bigger line-height.<br>
+</p>
+
+</body>
+</html>

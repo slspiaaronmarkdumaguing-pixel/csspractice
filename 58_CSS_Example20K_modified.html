@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!-- MODIFIED: Violet 3px borders with much rounder corners (15px, 25px, 40px). -->
+<html>
+<head>
+<style>
+/* MODIFIED base theme: placed first, so the example's own rules still win */
+body {
+ font-family: "Trebuchet MS", Verdana, sans-serif;
+ line-height: 1.5;
+ padding: 14px 22px;
+ background-color: #fff3e0;
+ color: #2d3142;
+ border-top: 8px solid #ef8354;
+}
+</style>
+<style>
+p.normal {
+  border: 3px solid #6a1b9a;
+  padding: 5px;
+}
+
+p.round1 {
+  border: 3px solid #6a1b9a;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+p.round2 {
+  border: 3px solid #6a1b9a;
+  border-radius: 25px;
+  padding: 5px;
+}
+
+p.round3 {
+  border: 3px solid #6a1b9a;
+  border-radius: 40px;
+  padding: 5px;
+}
+</style>
+</head>
+<body>
+
+<h2>The border-radius Property</h2>
+<p>This property is used to add rounded borders to an element:</p>
+
+<p class="normal">Normal border</p>
+<p class="round1">Round border</p>
+<p class="round2">Rounder border</p>
+<p class="round3">Roundest border</p>
+
+</body>
+</html>

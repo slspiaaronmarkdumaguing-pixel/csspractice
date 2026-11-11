@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!-- MODIFIED: Fixed the missing < in the DOCTYPE; small-caps text is larger, purple and spaced. -->
+<html>
+<head>
+<style>
+/* MODIFIED base theme: placed first, so the example's own rules still win */
+body {
+ font-family: "Trebuchet MS", Verdana, sans-serif;
+ line-height: 1.5;
+ padding: 14px 22px;
+ background-color: #fff3e0;
+ color: #2d3142;
+ border-top: 8px solid #ef8354;
+}
+</style>
+<style>
+p.normal {
+  font-variant: normal;
+}
+
+p.small {
+  font-variant: small-caps;
+}
+p { font-size: 28px; color: #6a1b9a; letter-spacing: 2px; }
+</style>
+</head>
+<body>
+
+<h1>The font-variant property</h1>
+
+<p class="normal">My name is King Queen.</p>
+<p class="small">My name is King Queen </p>
+
+</body>
+</html>
