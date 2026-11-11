@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!-- MODIFIED: Purple RGBA/opacity boxes with rounded corners. -->
+<html>
+<head>
+<style>
+/* MODIFIED base theme: placed first, so the example's own rules still win */
+body {
+ font-family: "Trebuchet MS", Verdana, sans-serif;
+ line-height: 1.5;
+ padding: 14px 22px;
+ background-color: #fff3e0;
+ color: #2d3142;
+ border-top: 8px solid #ef8354;
+}
+</style>
+<style>
+div {
+  background: rgb(106, 27, 154);
+}
+
+div.first {
+  background: rgba(106, 27, 154, 0.1);
+}
+
+div.second {
+  background: rgba(106, 27, 154, 0.3);
+}
+
+div.third {
+  background: rgba(106, 27, 154, 0.6);
+}
+div { border-radius: 12px; margin-bottom: 8px; }
+</style>
+</head>
+<body>
+
+<h1>Transparent Boxes 2</h1>
+
+<p>Result with opacity:</p>
+
+<div style="opacity:0.1;">
+ <h1>10% opacity</h1>
+</div>
+
+<div style="opacity:0.3;">
+ <h1>30% opacity</h1>
+</div>
+
+<div style="opacity:0.6;">
+ <h1>60% opacity</h1>
+</div>
+
+<div>
+ <h1>opacity 1</h1>
+</div>
+
+<p>Result with rgba():</p>
+
+<div class="first">
+ <h1>10% opacity</h1>
+</div>
+
+<div class="second">
+ <h1>30% opacity</h1>
+</div>
+
+<div class="third">
+ <h1>60% opacity</h1>
+</div>
+
+<div>
+ <h1>default</h1>
+</div>
+
+<p>Notice how the text gets transparent as well as the background color when using the opacity
+property.</p>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!-- MODIFIED: Universal selector now makes every element teal and right-aligned. -->
+<html>
+<head>
+<style>
+/* MODIFIED base theme: placed first, so the example's own rules still win */
+body {
+ font-family: "Trebuchet MS", Verdana, sans-serif;
+ line-height: 1.5;
+ padding: 14px 22px;
+ background-color: #fff3e0;
+ color: #2d3142;
+ border-top: 8px solid #ef8354;
+}
+</style>
+<style>
+* {
+  text-align: right;
+  color: #00897b;
+}
+</style>
+</head>
+<body>
+
+<h1>Hello world!</h1>
+
+<p>Every element on the page will be affected by the style.</p>
+<p id="para1">Me too!</p>
+<p>And me!</p>
+
+</body>
+</html>

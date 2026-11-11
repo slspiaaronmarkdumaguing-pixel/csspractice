@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!-- MODIFIED: Purple boxes with higher opacity levels (0.2, 0.5, 0.8) and matching labels. -->
+<html>
+<head>
+<style>
+/* MODIFIED base theme: placed first, so the example's own rules still win */
+body {
+ font-family: "Trebuchet MS", Verdana, sans-serif;
+ line-height: 1.5;
+ padding: 14px 22px;
+ background-color: #fff3e0;
+ color: #2d3142;
+ border-top: 8px solid #ef8354;
+}
+</style>
+<style>
+div {
+  background-color: #6a1b9a;
+}
+
+div.first {
+  opacity: 0.2;
+}
+
+div.second {
+  opacity: 0.5;
+}
+
+div.third {
+ opacity: 0.8;
+}
+</style>
+</head>
+<body>
+
+<h1>Transparent Boxes</h1>
+
+<p>When using the opacity property to add transparency to the background of an element, all of its child
+elements become transparent as well. This can make the text inside a fully transparent element hard to
+read:</p>
+
+<div class="first">
+ <h1>opacity 0.2</h1>
+</div>
+
+<div class="second">
+ <h1>opacity 0.5</h1>
+</div>
+
+<div class="third">
+ <h1>opacity 0.8</h1>
+</div>
+
+<div>
+ <h1>opacity 1 (default)</h1>
+</div>
+
+</body>
+</html>

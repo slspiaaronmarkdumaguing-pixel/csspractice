@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!-- MODIFIED: Internal style is now pink (still wins because it comes after the link) and paragraphs are italic; uses mystyle-modified.css. -->
+<html>
+<head>
+<style>
+/* MODIFIED base theme: placed first, so the example's own rules still win */
+body {
+ font-family: "Trebuchet MS", Verdana, sans-serif;
+ line-height: 1.5;
+ padding: 14px 22px;
+ background-color: #fff3e0;
+ color: #2d3142;
+ border-top: 8px solid #ef8354;
+}
+</style>
+<link rel="stylesheet" type="text/css" href="mystyle-modified.css">
+<style>
+h1 {
+  color: #d81b60;
+}
+p { font-style: italic; }
+</style>
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>The style of this document is a combination of an external stylesheet, and internal style</p>
+
+</body>
+</html>

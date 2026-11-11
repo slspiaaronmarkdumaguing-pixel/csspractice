@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!-- MODIFIED: p.center is now blue on a light-blue panel (text updated to match). -->
+<html>
+<head>
+<style>
+/* MODIFIED base theme: placed first, so the example's own rules still win */
+body {
+ font-family: "Trebuchet MS", Verdana, sans-serif;
+ line-height: 1.5;
+ padding: 14px 22px;
+ background-color: #fff3e0;
+ color: #2d3142;
+ border-top: 8px solid #ef8354;
+}
+</style>
+<style>
+p.center {
+  text-align: center;
+  color: #1565c0;
+ background-color: #e3f2fd;
+ padding: 6px;
+}
+</style>
+</head>
+<body>
+
+<h1 class="center">This heading will not be affected</h1>
+<p class="center">This paragraph will be blue and center-aligned.</p>
+
+</body>
+</html>

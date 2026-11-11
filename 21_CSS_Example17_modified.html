@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!-- MODIFIED: Missing-semicolon error kept; colors changed and the heading is styled to make the failure easy to see. -->
+<html>
+<head>
+<style>
+/* MODIFIED base theme: placed first, so the example's own rules still win */
+body {
+ font-family: "Trebuchet MS", Verdana, sans-serif;
+ line-height: 1.5;
+ padding: 14px 22px;
+ background-color: #fff3e0;
+ color: #2d3142;
+ border-top: 8px solid #ef8354;
+}
+</style>
+<style>
+p.bad {
+  color: crimson
+  background-color: gold;
+}
+h2 { color: #b71c1c; border-bottom: 3px solid #b71c1c; }
+</style>
+</head>
+<body>
+
+<h2>Error: Missing Semicolon</h2>
+
+<p class="bad">This is a paragraph.</p>
+
+</body>
+</html>

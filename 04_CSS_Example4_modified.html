@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!-- MODIFIED: The #para1 paragraph gets a pink color, tinted background and dashed border. -->
+<html>
+<head>
+<style>
+/* MODIFIED base theme: placed first, so the example's own rules still win */
+body {
+ font-family: "Trebuchet MS", Verdana, sans-serif;
+ line-height: 1.5;
+ padding: 14px 22px;
+ background-color: #fff3e0;
+ color: #2d3142;
+ border-top: 8px solid #ef8354;
+}
+</style>
+<style>
+#para1 {
+  text-align: center;
+  color: #c2185b;
+ background-color: #fce4ec;
+ border: 2px dashed #c2185b;
+ padding: 8px;
+}
+</style>
+</head>
+<body>
+<p id="para1">Hello World!</p>
+<p>This paragraph is not affected by the style.</p>
+
+</body>
+</html>

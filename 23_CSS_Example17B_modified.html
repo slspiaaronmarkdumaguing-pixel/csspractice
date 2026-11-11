@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!-- MODIFIED: Invalid negative width kept; valid color is teal with a left accent border. -->
+<html>
+<head>
+<style>
+/* MODIFIED base theme: placed first, so the example's own rules still win */
+body {
+ font-family: "Trebuchet MS", Verdana, sans-serif;
+ line-height: 1.5;
+ padding: 14px 22px;
+ background-color: #fff3e0;
+ color: #2d3142;
+ border-top: 8px solid #ef8354;
+}
+</style>
+<style>
+p.bad {
+  width: -50%;
+  color: #00695c;
+}
+p.bad { border-left: 6px solid #00695c; padding-left: 10px; }
+h2 { color: #b71c1c; }
+</style>
+</head>
+<body>
+<h2>Error: Invalid Values</h2>
+
+<p class="bad">This is a paragraph.</p>
+
+</body>
+</html>

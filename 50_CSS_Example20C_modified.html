@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!-- MODIFIED: Pink, teal and indigo borders, 5px wide (text updated to match). -->
+<html>
+<head>
+<style>
+/* MODIFIED base theme: placed first, so the example's own rules still win */
+body {
+ font-family: "Trebuchet MS", Verdana, sans-serif;
+ line-height: 1.5;
+ padding: 14px 22px;
+ background-color: #fff3e0;
+ color: #2d3142;
+ border-top: 8px solid #ef8354;
+}
+</style>
+<style>
+p.one {
+  border-style: solid;
+  border-color: #d81b60;
+}
+
+p.two {
+  border-style: solid;
+  border-color: #00897b;
+}
+
+p.three {
+  border-style: dotted;
+  border-color: #3949ab;
+}
+p { border-width: 5px; }
+</style>
+</head>
+<body>
+
+<h2>The border-color Property</h2>
+<p>This property specifies the color of the four borders:</p>
+
+<p class="one">A solid pink border</p>
+<p class="two">A solid teal border</p>
+<p class="three">A dotted indigo border</p>
+<p><b>Note:</b> The "border-color" property does not work if it is used alone. Use the "border-style"
+property to set the borders first.</p>
+
+</body>
+</html>
